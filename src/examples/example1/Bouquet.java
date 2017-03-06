@@ -5,7 +5,7 @@ import java.util.Map;
 
 import examples.example1.flowers.Flower;
 
-public class Bouquet {
+public class Bouquet{
 
 	private Map<Flower, Integer> bouquet;
 	
@@ -14,9 +14,7 @@ public class Bouquet {
 	}
 
 	public void addFlower(Flower flower, int amount) {
-		flower.clean();
-		flower.cut();
-		flower.putInBouquet();
+		System.out.println("Adding " + amount + " " + flower.getName());
 		bouquet.put(flower, amount);
 	}
 

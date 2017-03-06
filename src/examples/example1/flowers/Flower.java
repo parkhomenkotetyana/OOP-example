@@ -1,8 +1,6 @@
 package examples.example1.flowers;
 
-import examples.example1.MakeBouquet;
-
-public class Flower implements MakeBouquet{
+public class Flower{
 
 	protected String name;
 	protected String color;
@@ -20,22 +18,6 @@ public class Flower implements MakeBouquet{
 		price = 0.0;
 	}
 	
-
-	@Override
-	public void clean() {
-		System.out.println("Cleaning " + this.getName());		
-	}
-
-	@Override
-	public void cut() {
-		System.out.println("Cutting " + this.getName());				
-	}
-
-	@Override
-	public void putInBouquet() {
-		System.out.println("Putting " + this.getName() + " in the bouquet");		
-	}
-
 	public String getName() {
 		return name;
 	}
