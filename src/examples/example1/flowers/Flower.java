@@ -1,5 +1,11 @@
 package examples.example1.flowers;
 
+/**
+ * This is a super class for all flowers.
+ * 
+ * @author Tetiana Parkhomenko
+ *
+ */
 public class Flower{
 
 	protected String name;

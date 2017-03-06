@@ -1,5 +1,11 @@
 package examples.example1.flowers;
 
+/**
+ * Tulip entity.
+ * 
+ * @author Tetiana Parkhomenko
+ *
+ */
 public class Tulip extends Flower {	
 
 	public Tulip(){

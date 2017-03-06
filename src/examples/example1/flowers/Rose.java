@@ -1,5 +1,11 @@
 package examples.example1.flowers;
 
+/**
+ * Rose entity.
+ * 
+ * @author Tetiana Parkhomenko
+ *
+ */
 public class Rose extends Flower{
 
 	public Rose(){
