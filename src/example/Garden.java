@@ -3,6 +3,12 @@ package example;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Garden entity.
+ * 
+ * @author Tetiana Parkhomenko
+ *
+ */
 public class Garden {
 
 	private Map<Plant, Integer> garden;
@@ -11,12 +17,24 @@ public class Garden {
 		garden = new HashMap<Plant, Integer>();
 	}
 
+	/**
+	 * This method adds plants in the garden.
+	 * 
+	 * @param plant
+	 * @param amount
+	 */
 	public void addPlant(Plant plant, int amount) {
-		if (amount < 0)	return;
+		if (amount < 0)
+			return;
 		garden.put(plant, amount);
 		plant.plant();
 	}
 
+	/**
+	 * Method to grow the garden.
+	 * 
+	 * @param years
+	 */
 	public void growGarden(int years) {
 
 		for (int i = 1; i <= years; i++) {
@@ -29,7 +47,7 @@ public class Garden {
 				}
 			}
 		}
- 
+
 	}
 
 	@Override
@@ -42,6 +60,6 @@ public class Garden {
 			stringBuilder.append(System.lineSeparator());
 		}
 		return stringBuilder.toString();
-	}	
+	}
 
 }

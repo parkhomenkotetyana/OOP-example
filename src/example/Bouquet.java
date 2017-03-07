@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This class represents bouquet entity.
+ * Bouquet entity.
  * 
  * @author Tetiana Parkhomenko
  *
@@ -43,6 +43,11 @@ public class Bouquet {
 		return cost;
 	}
 
+	/**
+	 * Returns amount of flowers in the bouquet.
+	 * 
+	 * @return amount of flowers
+	 */
 	public int getAmountOfFlowers() {
 		int amount = 0;
 

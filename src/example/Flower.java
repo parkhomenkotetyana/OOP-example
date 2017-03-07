@@ -1,7 +1,7 @@
 package example;
 
 /**
- * This is a super class for all flowers.
+ * Flower entity.
  * 
  * @author Tetiana Parkhomenko
  *

@@ -1,5 +1,11 @@
 package example;
 
+/**
+ * Tree entity.
+ * 
+ * @author Tetiana Parkhomenko
+ *
+ */
 public class Tree extends Plant {
 	
 	private double height;

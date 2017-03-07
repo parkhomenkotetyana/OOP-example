@@ -41,7 +41,8 @@ public class Main {
 		System.out.println(garden);
 		
 		garden.growGarden(20);
-
+		
+		System.out.println("After 20 years:");
 		System.out.println(garden);
 	}
 }
